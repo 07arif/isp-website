@@ -18,7 +18,6 @@
     justify-content: space-between;
     width: 80%;
     margin: 0 auto;
-
 }
 
 .left-header {
@@ -57,9 +56,10 @@
 
 /* navigation bar start  */
 .navigation-bar {
+    background-color: rgb(255, 255, 255);
     display: flex;
     width: 80%;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .nav-logo {
@@ -77,8 +77,8 @@
 
 .nav-menu-item ul {
     display: flex;
-
-    margin-top: 7px;
+    margin-top: 21px;
+    margin-left: 165px;
 }
 
 .nav-menu-item ul a {
@@ -87,56 +87,65 @@
     font-weight: 500;
     margin: 5px;
     padding: 10px;
-
-
 }
 
 .nav-menu-item ul a:hover {
-    color: #6dacf1;
-    text-decoration: under ne;
+    color: #ffffff;
     transition: 0.4;
-    background-color: rgb(186, 175, 175);
+    background-image: linear-gradient(45deg, #4CB8C4, #3CD3AD);
     padding: 10px;
-    border: 0px solid red;
-
 }
 
 /* navigation bar end  */
 
 /* top banner start  */
 .top-banner {
-    /* background-image:  near-gradient(tomato, orange); */
     background-image: url(/images/banner&bg/background.png);
     background-size: cover;
-    height: 100vh;
+    height: 600px;
 }
 
 .banner-item {
     display: flex;
     width: 80%;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 50px;
+    gap: 10px;
 }
 
 .banner-left {
     width: 50%;
+    padding-top: 77px;
+}
+
+.banner-left h2 {
+    color: rgb(9, 62, 251);
 }
 
 .banner-left h1 {
-    font-size: 45px;
+    font-size: 69px;
+    font-weight: 700;
+    color: rgb(9, 62, 251);
+    margin-top: -3px;
+    margin-bottom: 5px;
 
+}
+
+.banner-left span {
+    color: #000000;
 }
 
 .banner-left button {
     padding: 14px 30px;
     border: none;
     border-radius: 20px;
-    background-image: near-gradient(45deg, #69FF97, #00E4FF);
+    background-image: linear-gradient(45deg, #69FF97, #00E4FF);
     font-weight: 700;
 }
 
 .banner-left button:hover {
-    background-color: #00E4FF;
+    background-image: linear-gradient(45deg, #4CB8C4, #3CD3AD);
+    color: white;
 }
 
 .banenr-right {
@@ -144,5 +153,178 @@
 }
 
 .banenr-right img {
-    width: 100%;
+    width: 90%;
 }
+
+/* top banner end   */
+
+/* Service area start  */
+.service-section {
+    text-align: center;
+    background-color: rgb(225, 225, 225);
+    /* background-image: linear-gradient(2deg, #0093E9 9%, #80D0C7 72%); */
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.service-section p {
+    color: #000000;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.service-section h1 {
+    font-size: 60px;
+    color: black;
+}
+
+.service-items {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    gap: 10px;
+    padding-top: 50px;
+
+}
+
+.items01 {
+    width: 50%;
+    background-color: white;
+    border-radius: 5px;
+    line-height: 50px;
+    padding-bottom: 25px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+
+.items01 h2 {
+    color: white;
+    background-color: rgb(254, 102, 102);
+    border-radius: 5px 5px 0 0px;
+}
+
+.items01 hr {
+    border: 0.9px solid rgb(238, 237, 237);
+
+}
+
+.items01 img {
+    width: 50%;
+}
+
+.items01 span {
+    color: rgb(254, 102, 102);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.items01 button {
+    background-color: rgb(254, 102, 102);
+    padding: 20px 50px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    color: rgb(255, 253, 253);
+
+}
+
+.items01 button:hover {
+    background-color: rgb(230, 32, 32);
+    color: rgb(255, 255, 255);
+}
+
+.items02 {
+    width: 50%;
+    background-color: white;
+    border-radius: 5px;
+    line-height: 50px;
+    padding-bottom: 25px;
+    box-shadow: 5px 5px 10px gray;
+
+}
+
+.items02 h2 {
+    color: white;
+    background-color: rgb(111, 222, 252);
+    border-radius: 5px 5px 0 0px;
+}
+
+.items02 hr {
+
+    border: 0.9px solid rgb(238, 237, 237);
+
+}
+
+.items02 img {
+    width: 50%;
+}
+
+.items02 span {
+    color: rgb(111, 222, 252);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.items02 button {
+    background-color: rgb(111, 222, 252);
+    padding: 20px 50px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    color: rgb(255, 253, 253);
+
+}
+
+.items02 button:hover {
+    background-color: rgb(3, 153, 194);
+    color: rgb(255, 255, 255);
+}
+
+.items03 {
+    width: 50%;
+    background-color: white;
+    border-radius: 5px;
+    line-height: 50px;
+    padding-bottom: 25px;
+    box-shadow: 5px 5px 10px gray;
+
+}
+
+.items03 h2 {
+    color: white;
+    background-color: rgb(38, 162, 94);
+    border-radius: 5px 5px 0 0px;
+}
+
+.items03 hr {
+    border: 0.9px solid rgb(238, 237, 237);
+
+}
+
+.items03 img {
+    width: 50%;
+}
+
+.items03 span {
+    color: rgb(38, 162, 94);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.items03 button {
+    background-color: rgb(38, 162, 94);
+    padding: 20px 50px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    color: rgb(255, 253, 253);
+
+}
+
+.items03 button:hover {
+    background-color: rgb(4, 255, 92);
+    color: rgb(255, 255, 255);
+}
+
+/* Service area end  */
