@@ -10,7 +10,7 @@
 
 .top-header-section {
     /* background:  near-gradient(45deg, #6dacf1 0%, #77a3a0 48%, #888ed4 100%); */
-    background-image: url(/images/banner&bg/background.png);
+    background-image: url(../images/banner&bg/background.png);
 }
 
 .top-header-item {
@@ -45,11 +45,11 @@
 .right-header a {
     text-decoration: none;
     color: white;
-    font-size: 400;
+    font-weight: 700;
 }
 
 .right-header a:hover {
-    color: #3a5ada;
+    color: #000000;
 }
 
 /* header section end  */
@@ -100,7 +100,7 @@
 
 /* top banner start  */
 .top-banner {
-    background-image: url(/images/banner&bg/background.png);
+    background-image: url(../images/banner&bg/background.png);
     background-size: cover;
     height: 600px;
 }
