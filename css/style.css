@@ -9,7 +9,8 @@
 /* header section start  */
 
 .top-header-section {
-    background: linear-gradient(45deg, #6dacf1 0%, #77a3a0 48%, #888ed4 100%);
+    /* background:  near-gradient(45deg, #6dacf1 0%, #77a3a0 48%, #888ed4 100%); */
+    background-image: url(/images/banner&bg/background.png);
 }
 
 .top-header-item {
@@ -44,11 +45,12 @@
 
 .right-header a {
     text-decoration: none;
-    color: black;
+    color: white;
+    font-size: 400;
 }
 
 .right-header a:hover {
-    color: #ffffff;
+    color: #3a5ada;
 }
 
 /* header section end  */
@@ -58,12 +60,10 @@
     display: flex;
     width: 80%;
     margin: 0 auto;
-    align-items: center;
 }
 
 .nav-logo {
     width: 50%;
-
 }
 
 .nav-logo img {
@@ -77,24 +77,72 @@
 
 .nav-menu-item ul {
     display: flex;
+
+    margin-top: 7px;
 }
 
-.nav-menu-item ul li {
-    list-style: none;
-    padding: 15px;
-    cursor: pointer;
-}
-
-.nav-menu-item ul li a {
+.nav-menu-item ul a {
     text-decoration: none;
     color: black;
-    font-weight: 700;
+    font-weight: 500;
+    margin: 5px;
+    padding: 10px;
+
+
 }
 
-.nav-menu-item ul li a:hover {
+.nav-menu-item ul a:hover {
     color: #6dacf1;
-    text-decoration: underline;
+    text-decoration: under ne;
     transition: 0.4;
+    background-color: rgb(186, 175, 175);
+    padding: 10px;
+    border: 0px solid red;
+
 }
 
 /* navigation bar end  */
+
+/* top banner start  */
+.top-banner {
+    /* background-image:  near-gradient(tomato, orange); */
+    background-image: url(/images/banner&bg/background.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.banner-item {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.banner-left {
+    width: 50%;
+}
+
+.banner-left h1 {
+    font-size: 45px;
+
+}
+
+.banner-left button {
+    padding: 14px 30px;
+    border: none;
+    border-radius: 20px;
+    background-image: near-gradient(45deg, #69FF97, #00E4FF);
+    font-weight: 700;
+}
+
+.banner-left button:hover {
+    background-color: #00E4FF;
+}
+
+.banenr-right {
+    width: 50%;
+}
+
+.banenr-right img {
+    width: 100%;
+}
