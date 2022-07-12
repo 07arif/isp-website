@@ -78,7 +78,7 @@
 .nav-menu-item ul {
     display: flex;
     margin-top: 21px;
-    margin-left: 165px;
+    margin-left: 58px;
 }
 
 .nav-menu-item ul a {
@@ -161,8 +161,7 @@
 /* Service area start  */
 .service-section {
     text-align: center;
-    background-color: rgb(225, 225, 225);
-    /* background-image: linear-gradient(2deg, #0093E9 9%, #80D0C7 72%); */
+    /* background-image: linear-gradient(90deg, #0093E9 9%, #80D0C7 72%); */
     padding-top: 50px;
     padding-bottom: 100px;
 }
@@ -328,3 +327,137 @@
 }
 
 /* Service area end  */
+/* ad banner  area start */
+.ad-banner {
+    background-image: url(../images/banner&bg/world.jpg);
+    background-size: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 200px;
+    color: white;
+
+}
+
+.ad-banner p {
+    margin-top: 75px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.ad-banner h5 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #69FF97;
+}
+
+.ad-banner button {
+    /* background-image: url(../images/banner&bg/coolHue-69FF97-00E4FF.png); */
+    background-image: linear-gradient(45deg, rgb(68, 197, 141), rgb(60, 151, 255));
+    margin-top: 75px;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.ad-banner button:hover {
+    background-image: linear-gradient(45deg, rgb(45, 116, 188), rgb(83, 237, 239));
+}
+
+/* ad banner area end  */
+.blog-area {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.blog-area h2 {
+    font-size: 40px;
+}
+
+.blog-items {
+    display: flex;
+    padding-top: 20px;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    gap: 20px;
+}
+
+.item0 {
+    width: 50%;
+    text-align: left;
+    line-height: 30px;
+    box-shadow: 10px 10px 10px gainsboro;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.item0 img {
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.item0 img:hover {
+    transform: scale(0.9);
+
+}
+
+.item0 button {
+    background-image: linear-gradient(45deg, rgb(45, 116, 188), rgb(83, 237, 239));
+    padding: 10px 30px;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+}
+
+.item0 button:hover {
+    background-image: linear-gradient(45deg, rgb(68, 197, 141), rgb(60, 151, 255));
+}
+
+/* blog area end  */
+footer {
+    background-image: linear-gradient(90deg, #0093E9 9%, #80D0C7 72%);
+    padding-bottom: 20px;
+}
+
+.footer-area {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.footer-item {
+    width: 50%;
+}
+
+.footer-item input {
+    padding: 8px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    margin-top: 5px;
+}
+
+.footer-item button {
+    padding: 8px 18px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    margin-left: -4px;
+    background-color: black;
+    color: white;
+    font-weight: 400;
+
+}
+
+.copy-right {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
+}
