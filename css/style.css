@@ -78,7 +78,7 @@
 .nav-menu-item ul {
     display: flex;
     margin-top: 21px;
-    margin-left: -6px;
+    margin-left: 128px;
 }
 
 .nav-menu-item ul a {
